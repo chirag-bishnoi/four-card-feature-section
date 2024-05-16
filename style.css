@@ -130,11 +130,12 @@ body {
 }
 
 @media (max-width:700px){
+    body {
+        padding-inline: 1.5rem;
+    }
+    
     .main__grid {
         grid-template-areas: 'one' 'two' 'three' 'four';
     }
 
-    .main__wrapper {
-        margin-inline: 1.5rem;
-    }
 }
